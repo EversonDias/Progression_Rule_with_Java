@@ -1,6 +1,5 @@
 package com.trybe.java.regraprogressao;
 
-
 import java.util.Scanner;
 
 /**
@@ -15,7 +14,6 @@ public class App {
     Scanner sc = new Scanner(System.in);
     System.out.println("Digite a quantidade de atividades para cadastrar:");
     int limitActive = Integer.parseInt(sc.nextLine());
-
     float acc = 0;
     int burden = 0;
     for (int index = 0; index < limitActive; index++) {
