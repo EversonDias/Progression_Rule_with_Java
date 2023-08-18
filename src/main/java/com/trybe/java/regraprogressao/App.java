@@ -7,6 +7,7 @@ import java.util.Scanner;
  * App.
  */
 public class App {
+
   /**
    * Metodo main.
    */
@@ -17,7 +18,7 @@ public class App {
 
     float acc = 0;
     int burden = 0;
-    for (int index = 0; index < limitActive ; index++) {
+    for (int index = 0; index < limitActive; index++) {
       System.out.println("Digite o nome da atividade " + (index + 1) + ":");
       String key = sc.nextLine();
 
@@ -34,11 +35,13 @@ public class App {
 
     float result = acc / burden;
 
-    if(result >= 85) {
-      System.out.println("Parabéns! Você alcançou " + result + "%! E temos o prazer de informar que você obteve aprovação!");
+    if (result >= 85) {
+      System.out.println("Parabéns! Você alcançou " + result
+          + "%! E temos o prazer de informar que você obteve aprovação!");
     } else {
-      System.out.println("Lamentamos informar que, com base na sua pontuação alcançada neste período, " + result + "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
+      System.out.println(
+          "Lamentamos informar que, com base na sua pontuação alcançada neste período, " + result
+              + "%, você não atingiu a pontuação mínima necessária para sua aprovação.");
     }
   }
-
 }
