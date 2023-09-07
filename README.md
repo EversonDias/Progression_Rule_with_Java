@@ -39,7 +39,7 @@ Para acessar e executar este projeto, siga os passos abaixo:
 2. Clone o Projeto
 
 ```bash
-git clone  RegraProgressao
+git clone https://github.com/EversonDias/Progression_Rule_with_Java.git RegraProgressao
 ```
 
 3. Entre no projeto
